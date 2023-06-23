@@ -77,3 +77,8 @@ Creates a new agent in the environment.
 - `learning_rate` (number): the learning rate of the agent. Default value 0.1.
 - `discount_rate` (number): the discount rate of the agent. Default value 0.9.
 - `epsilon` (number): the probability of exploration (vs. optimization) in learning mode. Default value 0.5.
+
+## Demo
+In this demonstration, our environment is the board, and our agent is the red dot. By choosing the appropriate transition function and reward function, we teach our agent to find the corner of the board.
+
+![Screen Recording 2023-06-23 at 6 37 06 PM (online-video-cutter com)](https://github.com/georgead01/ReinforcementLearning/assets/23529317/d7b3c0c5-5e4e-45bf-9c47-05b1e5334fcd)
